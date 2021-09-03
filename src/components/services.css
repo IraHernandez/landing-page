@@ -1,0 +1,34 @@
+.services-container {
+  padding: 1rem;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 200px 200px 200px;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+}
+@media screen and (min-width:320px){
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width:780px){
+  .services-container {
+    padding: 3rem;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 1rem;
+  }
+}
